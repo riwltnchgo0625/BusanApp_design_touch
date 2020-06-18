@@ -15,10 +15,11 @@
         android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
+            app:titleTextColor="@color/white"
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#92A8D1"
+            android:background="#404A7C"
             android:elevation="4dp"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
@@ -36,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#A3BDED"
+        android:background="#404A7C"
         app:headerLayout="@layout/nav_header_main"
         app:itemIconTint="@android:color/white"
         app:itemTextAppearance="@style/MyItemFont"
