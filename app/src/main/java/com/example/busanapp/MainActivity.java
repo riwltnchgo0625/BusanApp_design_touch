@@ -13,22 +13,19 @@ public class MainActivity extends AppCompatActivity {
     Runnable runnable;
 
     @Override
-    protected  void  onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
 
         handler = new Handler();
 
-
         runnable = () -> {
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
             finish();
-
         };
 
         //3초
-        handler.postDelayed(runnable,2000);
-
+        handler.postDelayed(runnable, 2000);
     }
 
     @Override

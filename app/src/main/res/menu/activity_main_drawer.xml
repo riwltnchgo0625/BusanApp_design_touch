@@ -20,13 +20,13 @@
         </menu>
     </item>
 
-    <item android:title="채팅">
+    <item android:title="@string/menu_chatting">
         <menu>
             <item
                 android:id="@+id/nav_chatting"
                 android:checkable="true"
                 android:icon="@drawable/ic_chat_black_24dp"
-                android:title="여행 채팅"/>
+                android:title="@string/menu_chatting_sub" />
 
         </menu>
 
@@ -42,12 +42,12 @@
         </menu>
     </item>
 
-    <item android:title="기록하기">
+    <item android:title="@string/menu_diary">
         <menu>
             <item
                 android:id="@+id/nav_calendar"
                 android:icon="@drawable/diary"
-                android:title="여행 일기" />
+                android:title="@string/menu_diary_sub" />
         </menu>
     </item>
 
@@ -82,13 +82,13 @@
                 android:id="@+id/nav_alltrip"
                 android:checkable="true"
                 android:icon="@drawable/ic_edit_location"
-                android:title="추천코스 보기" />
+                android:title="@string/menu_course_recommend" />
 
             <item
                 android:id="@+id/nav_cafe"
                 android:checkable="true"
                 android:icon="@drawable/ic_edit_location"
-                android:title="추천 먹거리/카페" />
-       </menu>
+                android:title="@string/menu_course_food" />
+        </menu>
     </item>
 </menu>

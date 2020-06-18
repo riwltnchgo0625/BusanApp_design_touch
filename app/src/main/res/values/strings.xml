@@ -10,7 +10,8 @@
 
     <!-- menu -->
     <string name="menu_home">Home</string>
-    <string name="menu_calendar">달력</string>
+    <string name="menu_diary">기록하기</string>
+    <string name="menu_diary_sub">여행 일기</string>
     <string name="menu_food_course">푸디 투어</string>
     <string name="menu_cafe">카페 투어</string>
     <string name="menu_mytrip">My Trip</string>
@@ -21,9 +22,10 @@
     <string name="menu_publicTraffic">대중교통 한눈에 보기</string>
     <string name="menu_hospital">의료시설 한눈에 보기</string>
     <string name="menu_course">코스</string>
-    <string name="menu_1dayTravel">당일치기</string>
-    <string name="menu_2daysTravel">1박 2일 여행</string>
-    <string name="menu_3daysTravel">2박 3일 여행</string>
+    <string name="menu_course_recommend">추천코스 보기</string>
+    <string name="menu_course_food">추천 먹거리/카페</string>
+    <string name="menu_chatting">채팅</string>
+    <string name="menu_chatting_sub">여행 채팅</string>
 
     <string name="home_second">Home Second</string>
 
@@ -38,7 +40,7 @@
     <string name="temperature_number">00.00</string>
     <string name="WeatherImage">Weather Icon</string>
 
-    <string name="icon_Food">음식점\n카페</string>
+    <string name="icon_Food">음식점/카페</string>
     <string name="icon_Culture">문화/관광</string>
     <string name="icon_Traffic">대중교통</string>
     <string name="icon_Hospital">의료시설</string>

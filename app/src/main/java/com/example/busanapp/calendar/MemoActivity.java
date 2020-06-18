@@ -33,7 +33,7 @@ public class MemoActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.memo_toolbar);
 
         setSupportActionBar(toolbar);
-
+        Objects.requireNonNull(getSupportActionBar()).setTitle("여행 일기");
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.back_icon);
 

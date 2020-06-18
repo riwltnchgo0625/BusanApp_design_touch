@@ -25,7 +25,8 @@
         android:fontFamily="@font/custom_font"
         android:hint="@string/prompt_title"
         android:inputType="textPersonName"
-        android:textCursorDrawable="@color/MainColor" />
+        android:textColorHighlight="@android:color/darker_gray"
+        android:textCursorDrawable="@android:color/darker_gray" />
 
     <ScrollView
         android:id="@+id/EditScroll"
@@ -43,7 +44,8 @@
             android:gravity="start"
             android:hint="@string/prompt_content"
             android:inputType="textMultiLine"
-            android:textCursorDrawable="@color/MainColor" />
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textCursorDrawable="@android:color/darker_gray" />
 
     </ScrollView>
 

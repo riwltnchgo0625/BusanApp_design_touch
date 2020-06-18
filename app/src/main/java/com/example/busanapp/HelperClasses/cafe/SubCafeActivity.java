@@ -54,7 +54,7 @@ public class SubCafeActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.cafe_toolbar);
 
         setSupportActionBar(toolbar);
-
+        Objects.requireNonNull(getSupportActionBar()).setTitle("지역별 낭만 카페");
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.back_icon);
 
